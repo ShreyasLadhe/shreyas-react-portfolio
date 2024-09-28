@@ -2,8 +2,11 @@ import React from 'react';
 import { FaAws } from "react-icons/fa6";
 import { SiGooglecloud, SiNvidia } from "react-icons/si";
 import aws_badge from "../../assets/aws_badge.png"
+import aws_technical from "../../assets/aws_technical.png"
+import aws_cloud_eco from "../../assets/aws_cloud_eco.png"
 import aws_essentials from "../../assets/aws_essentials.png"
 import aws_serverless from "../../assets/aws_serverless.png"
+import aws_migration from "./../../assets/aws_migration.png"
 
 const Certifications = () => {
   return (
@@ -50,11 +53,11 @@ const Certifications = () => {
 
         <div className="flex-1 flex flex-wrap gap-4">
           <div className="flex flex-col items-center bg-gray-800 rounded-lg p-4 w-40 h-40 justify-center">
-            <img src={aws_badge} alt="Badge" className="w-30 h-30 object-cover" />
-            <span className="text-white text-center">AWS Partner: Technical Accredited</span>
+            <img src={aws_technical} alt="Badge" className="w-30 h-30 object-cover" />
+            <span className="text-white text-center">AWS Partner: Technical</span>
           </div>
           <div className="flex flex-col items-center bg-gray-800 rounded-lg p-4 w-40 h-40 justify-center">
-            <img src={aws_badge} alt="Badge" className="w-30 h-30 object-cover" />
+            <img src={aws_cloud_eco} alt="Badge" className="w-30 h-30 object-cover" />
             <span className="text-white text-center">AWS Partner: Cloud Economics</span>
           </div>
           <div className="flex flex-col items-center bg-gray-800 rounded-lg p-4 w-40 h-40 justify-center">
@@ -63,11 +66,11 @@ const Certifications = () => {
           </div>
           <div className="flex flex-col items-center bg-gray-800 rounded-lg p-4 w-40 h-40 justify-center">
             <img src={aws_badge} alt="Badge" className="w-30 h-30 object-cover" />
-            <span className="text-white text-center">AWS Partner: Data Analytics on AWS</span>
+            <span className="text-white text-center">AWS Partner: Data Analytics</span>
           </div>
           <div className="flex flex-col items-center bg-gray-800 rounded-lg p-4 w-40 h-40 justify-center">
             <img src={aws_badge} alt="Badge" className="w-30 h-30 object-cover" />
-            <span className="text-white text-center">AWS Partner: Databases on AWS</span>
+            <span className="text-white text-center">AWS Partner: Databases</span>
           </div>
           <div className="flex flex-col items-center bg-gray-800 rounded-lg p-4 w-40 h-40 justify-center">
             <img src={aws_badge} alt="Badge" className="w-30 h-30 object-cover" />
@@ -80,6 +83,10 @@ const Certifications = () => {
           <div className="flex flex-col items-center bg-gray-800 rounded-lg p-4 w-40 h-40 justify-center">
             <img src={aws_serverless} alt="Badge" className="w-30 h-30 object-cover" />
             <span className="text-white text-center">AWS Knowledge: Serverless</span>
+          </div>
+          <div className="flex flex-col items-center bg-gray-800 rounded-lg p-4 w-40 h-40 justify-center">
+            <img src={aws_migration} alt="Badge" className="w-30 h-30 object-cover" />
+            <span className="text-white text-center">AWS Knowledge: Migration</span>
           </div>
         </div>
       </div>
