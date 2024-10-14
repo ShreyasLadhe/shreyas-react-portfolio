@@ -1,7 +1,7 @@
 import React from 'react'
 import avatarImg from "../../assets/avatar_image.png"
 import TextChange from "../TextChange.jsx"
-import { FaGithub, FaLinkedin } from "react-icons/fa"
+import { FaGithub, FaLinkedin, FaHackerrank } from "react-icons/fa"
 import { FaHashnode } from "react-icons/fa6";
 
 const Home = () => {
@@ -29,6 +29,11 @@ const Home = () => {
           <a href="https://clouddevopsfornewbies.hashnode.dev/" target="_blank" rel="noopener noreferrer">
             <div className='w-12 h-12 md:w-16 md:h-16 bg-[#465697] rounded-full flex items-center justify-center hover:opacity-85 hover:scale-105 duration-300'>
               <FaHashnode className='text-white w-6 h-6 md:w-8 md:h-8' />
+            </div>
+          </a>
+          <a href="https://www.hackerrank.com/profile/ShreyCloudDev" target="_blank" rel="noopener noreferrer">
+            <div className='w-12 h-12 md:w-16 md:h-16 bg-[#465697] rounded-full flex items-center justify-center hover:opacity-85 hover:scale-105 duration-300'>
+              <FaHackerrank className='text-white w-6 h-6 md:w-8 md:h-8' />
             </div>
           </a>
         </div>
